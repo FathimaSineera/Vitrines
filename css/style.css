@@ -102,9 +102,9 @@ body{
 }
 .head_img{
     position: relative;
-    left: 0;
-    bottom: -2rem;
-    width: 200px;
+    left: -1rem;
+    bottom: -3rem;
+    width: 150px;
 }
 .title{
     font-family: var(--style-font);
@@ -116,12 +116,29 @@ body{
 }
 .titles{
     text-align: center;
+    margin-top: var(--mb-1);
 }
 .header-grid{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 /*-----------------home section--------------*/
-
+.home__section{
+    background-color: var(--second-color);
+}
+.home__description{
+    color: black;
+}
+.home__description span{
+    color: var(--third-color);
+}
+.home__img{
+    width: 200px;
+    position: relative;
+    top: -6rem;
+}
+.home{
+    grid-template-columns: repeat(2, 1fr);
+}
 /*-----------------Quote section--------------*/
 .quote__section{
     background-color: var(--third-color);
