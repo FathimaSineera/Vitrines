@@ -208,6 +208,7 @@ body{
 }
 .contact__title{
     font-size: var(--h1-font-size);
+    margin-bottom: var(--mb-1);
 }
 .contact__subtitle{
     font-size: var(--h2-font-size);
@@ -224,6 +225,9 @@ body{
     text-decoration: none;
     border-radius: 2rem;
     padding: .3rem 3rem;
+}
+.button{
+    margin-bottom: var(--mb-1);
 }
 .contact__description{
     text-align: center;
