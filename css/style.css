@@ -95,11 +95,12 @@ body{
 /*-----------------header section--------------*/
 .header__section{
     background-color: var(--first-color);
+    height: 100px;
 }
 .head_img{
     position: relative;
-    left: -1rem;
-    bottom: -3rem;
+    left: -2rem;
+    bottom: 0;
     width: 150px;
 }
 .title{
