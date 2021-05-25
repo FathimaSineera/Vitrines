@@ -40,15 +40,11 @@
     --mb-2-5: 2.5rem;
     --mb-3: 3rem;
 
-    /*========== z index ---> it controls the vertical stacking order of elements that overlap==========*/
-    --z-tooltip: 10;
-    --z-fixed: 100;
-    --z-modal: 1000;
 }
 
 /*==================== LAYOUT ====================max-width: 768px;*/
 .section{
-    padding: 2rem 0 4rem;
+    padding: 2rem 0 2rem;
 }
 .container{
     max-width: 768px;
@@ -134,7 +130,16 @@ body{
 .home__img{
     width: 200px;
     position: relative;
-    top: -6rem;
+    top: -15rem;
+}
+.home-girl{
+    background-color: var(--first-color);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    position: relative;
+    right: -3rem;
+    bottom: 1rem;
 }
 .home{
     grid-template-columns: repeat(2, 1fr);
