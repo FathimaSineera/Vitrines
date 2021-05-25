@@ -47,10 +47,13 @@
 }
 
 /*==================== LAYOUT ====================max-width: 768px;*/
+.section{
+    padding: 2rem 0 4rem;
+}
 .container{
+    max-width: 768px;
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
-    padding: 3rem 2rem 3rem;
 }
 .grid{
     display: grid;
@@ -94,7 +97,29 @@ body{
 
 }
 /*-----------------header section--------------*/
+.header__section{
+    background-color: var(--first-color);
+}
+.head_img{
+    position: relative;
+    left: 0;
+    bottom: -2rem;
+    width: 200px;
+}
+.title{
+    font-family: var(--style-font);
+    font-weight: 100;
+}
+.sub-title{
+    font-size: var(--h2-font-size);
 
+}
+.titles{
+    text-align: center;
+}
+.header-grid{
+    grid-template-columns: repeat(2, 1fr);
+}
 /*-----------------home section--------------*/
 
 /*-----------------Quote section--------------*/
@@ -196,10 +221,11 @@ body{
 }
 .app,.social{
     font-size: var(--small-font-size);
-    margin-bottom: var(--mb-0-25);
+    text-align: center;
 }
 .footer__icons{
     margin-bottom: var(--mb-1);
+    grid-template-columns: repeat(2, 1fr);
 }
 .footer__description{
     margin-bottom: var(--mb-1);
