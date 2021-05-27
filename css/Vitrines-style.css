@@ -44,14 +44,8 @@
 
 /*------------------------Layout---------------------------*/
     .container{
-        background-color: black;
+        background-color: white;
         color: black;
-        font-size: 2rem;
-    }
-    .cel{
-        background-color: aquamarine;
-        background-clip: content-box;
-        padding: 5px;
     }
     .r4{
         margin-left: 2.5rem;
@@ -67,14 +61,50 @@
     }
 
 /*------------------------r1---------------------------*/
-
+    .r1{
+        background-color: var(--first-color);
+    }
+    .basket-img{
+        width: 100px;
+        height: 130px;
+        margin-left: -32px;
+        margin-bottom: -25px;
+    }
+    .logo{
+        height: 100px;
+    }
 /*------------------------r2---------------------------*/
-
+    .r2{
+        background-color:var(--second-color);
+    }
+    .home__img{
+        height: 250px;
+        margin-top: -45px;
+    }
 /*------------------------r3---------------------------*/
-
+    .r3{
+        background-color:var(--third-color);
+    }
+    .quote-left_img{
+        margin-left: -12px;
+    }
+    .quote-right_img{
+        margin-right: 3rem;
+    }
+    .quote-left_img,
+    .quote-right_img{
+        width: 150px;
+    }
 /*------------------------r4---------------------------*/
+    .r4{
+        background-color:gainsboro;
+    }
 
 /*------------------------r5---------------------------*/
-
+    .r5{
+        background-color:var(--fourth-color);
+    }
 /*------------------------r6---------------------------*/
-
+    .r6{
+     background-color:var(--fifth-color);
+    }
