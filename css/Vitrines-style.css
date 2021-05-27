@@ -1,0 +1,23 @@
+
+    .container{
+        background-color: black;
+        color: black;
+        font-size: 2rem;
+    }
+    .cel{
+        background-color: aquamarine;
+        background-clip: content-box;
+        padding: 5px;
+    }
+    .r4{
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+    @media screen and (max-width:575px) {
+        .portfolio1,
+        .portfolio-des1,
+        .portfolio2,
+        .portfolio-des2{
+            width:max-content;
+        }
+    }
