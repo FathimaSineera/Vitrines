@@ -135,7 +135,8 @@
     }
     .portfolio1_img,
     .portfolio2_img{
-        width: 80%;
+        max-width: 80%;
+        height: auto;
         margin-left: 2rem;
     }
     .portfolio-des1,
