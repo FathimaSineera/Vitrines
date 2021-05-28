@@ -45,12 +45,11 @@
 /*------------------------Layout---------------------------*/
     .container{
         background-color: white;
-        color: black;
+        color: var(--second-color);
+        font-family: var(--normal-font);
+        font-size: var(--normal-font-size);
     }
-    .r4{
-        margin-left: 2.5rem;
-        margin-right: 2.5rem;
-    }
+
     @media screen and (max-width:575px) {
         .portfolio1,
         .portfolio-des1,
@@ -81,6 +80,15 @@
         height: 250px;
         margin-top: -45px;
     }
+    .home-description{
+        text-align: center;
+        color: black;
+        padding: 3.5rem 0 0 2rem;
+    }
+    .home-description span{
+        color: var(--third-color);
+        font-size: medium;
+    }
 /*------------------------r3---------------------------*/
     .r3{
         background-color:var(--third-color);
@@ -98,13 +106,73 @@
 /*------------------------r4---------------------------*/
     .r4{
         background-color:gainsboro;
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
     }
+
 
 /*------------------------r5---------------------------*/
     .r5{
         background-color:var(--fourth-color);
     }
+    .connect_img{
+        margin-left: -12px;
+    }
+    .connect-note{
+        text-align: center;
+        padding: var(--mb-3);
+    }
+    .connect-note-top{
+        font-size: var(--h1-font-size);
+        margin-bottom: var(--mb-1);
+        
+    }
+    .contact__subtitle{
+        font-size: var(--h2-font-size);
+    }
+    .connect-note-top,
+    .contact__subtitle{
+        font-family: var(--style-font);  
+        font-weight: 100;
+    }
+    .contact_button{
+        background-color: var(--third-color);
+        color: white;
+        font-family: var(--normal-font);
+        font-size: var(--normal-font-size);
+        text-decoration: none;
+        border-radius: 2rem;
+        padding: .3rem 3rem;
+    }
+    .connect-button{
+        margin-bottom: var(--mb-1);
+    }
 /*------------------------r6---------------------------*/
     .r6{
      background-color:var(--fifth-color);
+     text-align: center;
+     padding: 3rem 2rem 3rem;
     }
+    .social{
+        font-size: var(--small-font-size);
+        text-align: left;
+    }
+    .app{
+        font-size: var(--small-font-size);
+        text-align: right;
+    }
+    .app,
+    .social,
+    .footer-note,
+    .copy-rights{
+        margin-bottom: var(--mb-0-5);
+        margin-top: var(--mb-0-5);
+    }
+    .footer__link{
+        color: var(--third-color);
+    }
+    .footer-note,
+    .copy-rights{
+    font-size: var(--smaller-font-size);
+}
+    
